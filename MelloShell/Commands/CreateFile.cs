@@ -11,7 +11,7 @@
 ///     touch tesfile1
 /// </code>
 /// </summary>
-[CommandAttribute("touch", Aliases = new []{"createfile"})]
+[Command("touch", Aliases = new []{"createfile"})]
 public class CreateFile : ICommand
 {
     public void Run(string[] input)

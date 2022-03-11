@@ -12,7 +12,7 @@
 ///     rmdir testdir/testdir2
 /// </code>
 /// </summary>
-[CommandAttribute("rmdir")]
+[Command("rmdir")]
 public class RemoveDirectory : ICommand
 {
     public void Run(string[] input)

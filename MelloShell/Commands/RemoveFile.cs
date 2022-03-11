@@ -12,7 +12,7 @@
 ///     rm testfile1 testfile2
 /// </code>
 /// </summary>
-[CommandAttribute("rm")]
+[Command("rm")]
 public class RemoveFile : ICommand
 {
     public void Run(string[] input)

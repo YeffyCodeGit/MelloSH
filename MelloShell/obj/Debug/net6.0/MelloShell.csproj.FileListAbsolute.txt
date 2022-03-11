@@ -1,0 +1,14 @@
+C:\Users\aditc\dev\MelloSH\MelloShell\bin\Debug\net6.0\MelloShell.deps.json
+C:\Users\aditc\dev\MelloSH\MelloShell\bin\Debug\net6.0\MelloShell.dll
+C:\Users\aditc\dev\MelloSH\MelloShell\bin\Debug\net6.0\MelloShell.pdb
+C:\Users\aditc\dev\MelloSH\MelloShell\bin\Debug\net6.0\MelloShell.xml
+C:\Users\aditc\dev\MelloSH\MelloShell\obj\Debug\net6.0\MelloShell.csproj.AssemblyReference.cache
+C:\Users\aditc\dev\MelloSH\MelloShell\obj\Debug\net6.0\MelloShell.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aditc\dev\MelloSH\MelloShell\obj\Debug\net6.0\MelloShell.AssemblyInfoInputs.cache
+C:\Users\aditc\dev\MelloSH\MelloShell\obj\Debug\net6.0\MelloShell.AssemblyInfo.cs
+C:\Users\aditc\dev\MelloSH\MelloShell\obj\Debug\net6.0\MelloShell.csproj.CoreCompileInputs.cache
+C:\Users\aditc\dev\MelloSH\MelloShell\obj\Debug\net6.0\MelloShell.dll
+C:\Users\aditc\dev\MelloSH\MelloShell\obj\Debug\net6.0\refint\MelloShell.dll
+C:\Users\aditc\dev\MelloSH\MelloShell\obj\Debug\net6.0\MelloShell.xml
+C:\Users\aditc\dev\MelloSH\MelloShell\obj\Debug\net6.0\MelloShell.pdb
+C:\Users\aditc\dev\MelloSH\MelloShell\obj\Debug\net6.0\ref\MelloShell.dll

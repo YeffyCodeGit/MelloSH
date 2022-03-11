@@ -12,7 +12,7 @@
 ///     mkdir testdir1 testdir2
 /// </code>
 /// </summary>
-[CommandAttribute("mkdir")]
+[Command("mkdir")]
 public class MakeDirectory : ICommand
 {
     public void Run(string[] input)

@@ -14,7 +14,7 @@
 ///     cp testfile1 testdir
 /// </code>
 /// </summary>
-[CommandAttribute("cp")]
+[Command("cp")]
 public class CopyFile : ICommand
 {
     public void Run(string[] input)

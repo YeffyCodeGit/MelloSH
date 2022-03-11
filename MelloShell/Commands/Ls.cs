@@ -15,7 +15,7 @@
 ///     ls testdir
 /// </code>
 /// </summary>
-[CommandAttribute("ls")]
+[Command("ls")]
 public class Ls : ICommand
 {
     private readonly string[] _options = { "-l", "-a", "-la"};

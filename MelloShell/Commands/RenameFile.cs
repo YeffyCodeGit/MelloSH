@@ -12,7 +12,7 @@
 ///     rename foo bar
 /// </code>
 /// </summary>
-[CommandAttribute("rename")]
+[Command("rename")]
 public class RenameFile : ICommand
 {
     public void Run(string[] input)

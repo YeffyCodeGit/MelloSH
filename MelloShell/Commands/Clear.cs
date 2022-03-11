@@ -12,7 +12,7 @@
 ///     clear
 /// </code>
 /// </summary>
-[CommandAttribute("clear", Aliases = new []{"cls", "clr"})]
+[Command("clear", Aliases = new []{"cls", "clr"})]
 public class Clear : ICommand
 {
     public void Run(string[] input)

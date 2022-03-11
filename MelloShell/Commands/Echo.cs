@@ -12,7 +12,7 @@
 ///     echo Hello World!
 /// </code>
 /// </summary>
-[CommandAttribute("echo", Aliases = new []{"print"})]
+[Command("echo", Aliases = new []{"print"})]
 public class Echo : ICommand
 {
     public void Run(string[] input)

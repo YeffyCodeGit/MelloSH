@@ -12,7 +12,7 @@
 ///     cd testdir
 /// </code>
 /// </summary>
-[CommandAttribute("cd")]
+[Command("cd")]
 public class Cd : ICommand
 {
     public void Run(string[] input)

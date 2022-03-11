@@ -1,0 +1,180 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MelloShell</name>
+    </assembly>
+    <members>
+        <member name="T:MelloShell.Commands.Cd">
+            <summary>
+            Navigates to a directory. Supplying no directory outputs nothing.<br/>
+            
+            Usage: <c>cd [options] [directory]</c> <br/>
+            Options:
+            -h, --h, --help: Prints this help text <br/>
+            Example: <br/>
+            Navigates to the "testdir/ directory.
+            <code>
+                cd testdir
+            </code>
+            </summary>
+        </member>
+        <member name="T:MelloShell.Commands.Clear">
+            <summary>
+            Clears the terminal. <br/>
+            
+            Usage: <c>clear [options]</c> <br/>
+            Options: <br/>
+            -h, --h, --help: Prints this help text <br/>
+            Example: <br/>
+            Clears terminal so that only the prompt remains...pretty self explanitory.
+            <code>
+                clear
+            </code>
+            </summary>
+        </member>
+        <member name="T:MelloShell.Commands.CopyFile">
+            <summary>
+            Copies a file or multiple files to a directory. <br/>
+            <remarks>Currently doesnt support copying directories.</remarks>
+            Usage: <c>cp [options] [source] [dest]</c> <br/>
+            Options: <br/>
+            -h, --h, --help: Prints this help text<br/>
+            -d: allows copying of directories<br/>
+            -p: prompts before overwriting<br/>
+            Example: <br/>
+            Copies the file "testfile1" to the "testdir" directory.
+            <code>
+                cp testfile1 testdir
+            </code>
+            </summary>
+        </member>
+        <member name="T:MelloShell.Commands.CreateFile">
+            <summary>
+            Creates files or changes files access time. <br/>
+            Usage: <c>touch [options] [filename(s)]</c> <br/>
+            Options: <br/>
+            -h, --h, --help: Prints this help text <br/>
+            Example: <br/>
+            Creates a file named "testfile1".
+            <code>
+                touch tesfile1
+            </code>
+            </summary>
+        </member>
+        <member name="T:MelloShell.Commands.Echo">
+            <summary>
+            Prints input to the console. <br/>
+            
+            Usage: <c>echo [options] [string]</c> <br/>
+            Options: <br/>
+            -h, --h, --help: Prints this help text <br/>
+            Example: <br/>
+            Outputs "Hello World!" to the console.
+            <code>
+                echo Hello World!
+            </code>
+            </summary>
+        </member>
+        <member name="T:MelloShell.Commands.Ls">
+            <summary>
+            Lists the directories and files of a directory and its information.
+            No input prints from the current directory. <br/>
+            
+            Usage: <c>ls [options] [directory(s)]</c> <br/>
+            Options: <br/>
+            -h, --h, --help: Prints this help text<br/>
+            -l: Prints this help text<br/>
+            -a: Include hidden directories<br/>
+            Example: <br/>
+            Prints the files of the "testdir" directory
+            <code>
+                ls testdir
+            </code>
+            </summary>
+        </member>
+        <member name="T:MelloShell.Commands.MakeDirectory">
+            <summary>
+            Creates directories <br/>
+            
+            Usage: <c>mkdir [options] [dirname(s)]</c> <br/>
+            Options: <br/>
+            -h, --h, --help: Prints this help text <br/>
+            Example: <br/>
+            Creates directory "testdir1" and "testdir2" in the current directory.
+            <code>
+                mkdir testdir1 testdir2
+            </code>
+            </summary>
+        </member>
+        <member name="T:MelloShell.Commands.MoveFile">
+            <summary>
+            Moves files or directories to another directory. <br/>
+            <remarks>Does not support renaming files or directories. See <see cref="T:MelloShell.Commands.RenameFile">rename</see>.</remarks>
+            Usage: <c>mv [options] [source name] [dest name]</c> <br/>
+            Options: <br/>
+            -h, --h, --help: Prints this help text <br/>
+            Example: <br/>
+            Moves the file "testfile1" to the directory "testdir2"
+            <code>
+                mv testfile1 testdir2
+            </code>
+            </summary>
+        </member>
+        <member name="T:MelloShell.Commands.RemoveDirectory">
+            <summary>
+            Deletes directories. <br/>
+            
+            Usage: <c>rmdir [options] [directory(s)]</c> <br/>
+            Options: <br/>
+            -h, --h, --help: Prints this help text <br/>
+            Example: <br/>
+            Deletes directory "testdir2" in "testdir". "testdir" does not get removed.
+            <code>
+                rmdir testdir/testdir2
+            </code>
+            </summary>
+        </member>
+        <member name="T:MelloShell.Commands.RemoveFile">
+            <summary>
+            Deletes files. <br/>
+            
+            Usage: <c>rm [options] [file(s)]</c> <br/>
+            Options: <br/>
+            -h, --h, --help: Prints this help text <br/>
+            Example: <br/>
+            Deletes the files "testfile1" and "testfile2" in the current directory.
+            <code>
+                rm testfile1 testfile2
+            </code>
+            </summary>
+        </member>
+        <member name="T:MelloShell.Commands.RenameFile">
+            <summary>
+            Renames files. <br/>
+            <remarks>Currently doesnt support renaming directories.</remarks>
+            Usage: <c>rename [options] [source] [suggested name]</c> <br/>
+            Options: <br/>
+            -h, --h, --help: Prints this help text <br/>
+            Example: <br/>
+            Renames file "foo" to "bar".
+            <code>
+                rename foo bar
+            </code>
+            </summary>
+        </member>
+        <member name="T:MelloShell.Commands.RunProgram">
+            <summary>
+            Runs a program. <br/>
+            <remarks>Command is a work in progress.</remarks>
+            Usage: <c>run [options] [program]</c> <br/>
+            Options: <br/>
+            -h, --h, --help: Prints this help text <br/>
+            Example: <br/>
+            Runs the exe "somescript".
+            <code>
+                run somescript.exe
+            </code>
+            </summary>
+        </member>
+    </members>
+</doc>

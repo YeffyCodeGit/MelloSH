@@ -14,7 +14,7 @@ namespace MelloShell.Commands;
 ///     run somescript.exe
 /// </code>
 /// </summary>
-[CommandAttribute("run", Aliases = new []{"./"})]
+[Command("run", Aliases = new []{"./"})]
 public class RunProgram : ICommand
 {
     public void Run(string[] input)

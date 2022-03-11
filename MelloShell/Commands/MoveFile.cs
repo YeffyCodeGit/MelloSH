@@ -12,7 +12,7 @@
 ///     mv testfile1 testdir2
 /// </code>
 /// </summary>
-[CommandAttribute("mv", Aliases = new []{"move"})]
+[Command("mv", Aliases = new []{"move"})]
 public class MoveFile : ICommand
 {
     public void Run(string[] input)
